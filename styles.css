@@ -1,0 +1,409 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: medium;
+}
+
+
+@media only screen and (min-width: 769px) {
+    .hamburger-menu {
+        display: none;
+    }
+}
+
+.img-fluid {
+    width: 700px;
+    height: 500px;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFD400;
+}
+
+.logo {
+    justify-content: flex-start;
+    font-size: medium;
+    margin-left: 10px;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.navlist li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+
+.logo {
+    width: 60px;
+    height: 60px;
+    background-image: transparent;
+}
+
+
+.lead {
+    margin-top: 5px;
+}
+
+.pl {
+    transition: border-bottom 0.3s ease;
+}
+
+.our_services {
+    background-color: #FFD400;
+    border: 2px solid #FFD400;
+    border-radius: 40%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.enquiry {
+    display: flex;
+    justify-content: space-around;
+    margin: 35px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formtitle h2 {
+    margin: 25px;
+}
+
+.enquriyimage {
+    background-color: #FFD400;
+    border: 2px solid #FFD400;
+    border-radius: 20%;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #FFD400;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.submit-btn {
+    background-color: #FFD400;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+.submit-btn:hover {
+    background-color: #FFA500;
+}
+
+.border {
+    background-color: white;
+    border: 5px solid white;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.footcontainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFD400;
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+}
+
+.followus {
+    margin-top: 10px;
+}
+
+.copy {
+    margin-top: 10px;
+}
+
+
+.aboutcontainer {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.aboutcontainer h1 {
+    text-align: center;
+    color: #333;
+}
+
+.aboutcontainer p {
+    line-height: 1.6;
+    color: #666;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: inline;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.quote {
+    font-style: italic;
+    text-align: center;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #FFD700;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #FFD700;
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #FFA500;
+}
+
+
+.servicecontainer {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.servicecontainer h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #343a40;
+}
+
+.service {
+    display: flex;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.service-info {
+    padding: 20px;
+}
+
+.service-info h2 {
+    margin-top: 0;
+    color: #343a40;
+}
+
+.service-info p {
+    color: #6c757d;
+}
+
+
+.carrercontainer {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.carrercontainer h2 {
+    margin-top: 30px;
+}
+
+.carrercontainer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.carrercontainer ul li {
+    margin-bottom: 10px;
+}
+
+.carrercontainer ul li::before {
+    content: "\2022";
+    color: #FFD400;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.carrercontainer p {
+    margin-bottom: 20px;
+}
+
+
+
+.carrerbtn:hover {
+    background-color: #FFA500;
+}
+
+.file-input input[type="file"] {
+    display: none;
+    /* Hide the default file input */
+}
+
+.custom-file-upload {
+    background-color: #FFD400;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    width: 25%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-file-upload:hover {
+    background-color: #FFA500;
+}
+
+
+.submit {
+    background-color: #FFD400;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contactcontainer {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.contactcontainer h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-form {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .navcontainer {
+        flex-direction: column;
+    }
+
+    .navlist {
+        display: none;
+        flex-direction: column;
+        width: 50%;
+        padding: 0;
+    }
+
+    .navlist.active {
+        display: flex;
+    }
+
+    .navlist li {
+        margin: 10px 0;
+    }
+
+    .hamburger-menu {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+
+
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: black;
+        margin: 3px 0;
+    }
+
+    .hamburger-menu.open .bar:nth-child(1) {
+        transform: translateY(6px) rotate(45deg);
+    }
+
+    .hamburger-menu.open .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger-menu.open .bar:nth-child(3) {
+        transform: translateY(-6px) rotate(-45deg);
+    }
+
+    .our_services {
+        background-color: white;
+        border: none;
+        box-shadow: none;
+    }
+
+    .border {
+
+        background-color: white;
+        border: none;
+
+    }
+
+    .enquiry {
+        display: flex;
+        flex-direction: column;
+        margin: 35px;
+    }
+
+}
